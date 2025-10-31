@@ -104,7 +104,7 @@ scene("main", () => {
     ]);
 
     const moveSpeed = 300;
-    const jumpForce = 1400;
+    const jumpForce = 1500;
 
     let lastPlatformY = startY - 200;
     let lastPlatformX = startX;
@@ -186,3 +186,4 @@ scene("main", () => {
 
 // Start
 go("start");
+
